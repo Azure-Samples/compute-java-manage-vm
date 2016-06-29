@@ -37,3 +37,7 @@ Set the environment variable `AZURE_AUTH_LOCATION` with the location of the auth
 [Virtual Machines](https://azure.microsoft.com/en-us/services/virtual-machines/)
 
 [Virtual Machines - Learning Path](https://azure.microsoft.com/en-us/documentation/learning-paths/virtual-machines/)
+
+---
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
