@@ -34,6 +34,8 @@ Set the environment variable `AZURE_AUTH_LOCATION` with the location of the auth
 
 ## More information ##
 
+[http://azure.com/java] (http://azure.com/java)
+
 [Virtual Machines](https://azure.microsoft.com/en-us/services/virtual-machines/)
 
 [Virtual Machines - Learning Path](https://azure.microsoft.com/en-us/documentation/learning-paths/virtual-machines/)
