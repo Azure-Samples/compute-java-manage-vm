@@ -24,7 +24,7 @@ Compute Manage Virtual Machine Sample (for 1.0.0-beta2) - demonstrates how to pe
 
 To run this sample:
 
-Set the environment variable `AZURE_AUTH_LOCATION` with the full path of an auth file. See [how to create an auth file](https://github.com/Azure/azure-sdk-for-java/blob/master/AUTH.md).
+Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-sdk-for-java/blob/master/AUTH.md).
 
     git clone https://github.com/Azure-Samples/compute-java-manage-vm.git
 
