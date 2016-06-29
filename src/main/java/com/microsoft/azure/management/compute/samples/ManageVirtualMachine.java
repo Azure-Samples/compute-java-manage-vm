@@ -16,6 +16,7 @@ import com.microsoft.azure.management.compute.VirtualMachineDataDisk;
 import com.microsoft.azure.management.compute.VirtualMachineSizeTypes;
 import com.microsoft.azure.management.network.Network;
 import com.microsoft.azure.management.resources.fluentcore.arm.Region;
+import com.microsoft.azure.management.resources.fluentcore.utils.ResourceNamer;
 import com.microsoft.azure.management.samples.Utils;
 import okhttp3.logging.HttpLoggingInterceptor;
 
@@ -44,9 +45,9 @@ public final class ManageVirtualMachine {
      */
     public static void main(String[] args) {
 
-        final String windowsVMName = Utils.createRandomName("wVM");
-        final String linuxVMName = Utils.createRandomName("lVM");
-        final String rgName = Utils.createRandomName("rgCOMV");
+        final String windowsVMName = ResourceNamer.randomResourceName("wVM", 24);
+        final String linuxVMName = ResourceNamer.randomResourceName("lVM", 24);
+        final String rgName = ResourceNamer.randomResourceName("rgCOMV", 24);
         final String userName = "tirekicker";
         final String password = "12NewPA$$w0rd!";
         final String dataDiskName = "disk2";
