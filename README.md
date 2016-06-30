@@ -13,8 +13,8 @@ These samples (for 1.0.0-beta2) demonstrate how to perform common tasks with Mic
 - Stop a virtual machine
 - Restart a virtual machine
 - Update a virtual machine
-	- Expand the OS drive
-	- Tag a virtual machine (there are many possible variations here)
+	- Expand a drive
+	- Tag a virtual machine
 	- Attach data disks
 	- Detach data disks
 - List virtual machines
