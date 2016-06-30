@@ -6,7 +6,7 @@ author: selvasingh
 
 # Azure Virtual Machines Management Samples - Java
 
-These samples (for 1.0.0-beta2) demonstrate how to perform common tasks with Microsoft Azure Virtual Machines. Code examples show how to do the following:
+These samples (for 1.0.0-beta2) demonstrate how to perform common tasks with Microsoft Azure Virtual Machines. The code examples provided show how to do the following:
 
 - Create a virtual machine
 - Start a virtual machine
