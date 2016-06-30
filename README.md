@@ -1,12 +1,12 @@
 ---
-services: compute
+services: virtual-machines
 platforms: java
 author: selvasingh
 ---
 
-#Getting Started with Compute - Manage Virtual Machines - in Java #
+# Azure Virtual Machines Management Samples - Java
 
-Compute Manage Virtual Machine Sample (for 1.0.0-beta2) - demonstrates how to perform common tasks using the Microsoft Azure Compute service.
+These samples (for 1.0.0-beta2) demonstrate how to perform common tasks with Microsoft Azure Virtual Machines. Code examples show how to do the following:
 
 - Create a virtual machine
 - Start a virtual machine
@@ -20,11 +20,11 @@ Compute Manage Virtual Machine Sample (for 1.0.0-beta2) - demonstrates how to pe
 - List virtual machines
 - Delete a virtual machine.
 
-## Running this Sample ##
+## Running this sample
 
-To run this sample:
+To run this sample first set the environment variable **AZURE_AUTH_LOCATION** to the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-sdk-for-java/blob/master/AUTH.md).
 
-Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-sdk-for-java/blob/master/AUTH.md).
+Next, clone (or download) the sample and compile it.
 
     git clone https://github.com/Azure-Samples/compute-java-manage-vm.git
 
@@ -32,13 +32,13 @@ Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an aut
 
     mvn clean compile exec:java
 
-## More information ##
+## More information
 
-[http://azure.com/java] (http://azure.com/java)
+Here are some helpful links:
 
-[Virtual Machines](https://azure.microsoft.com/en-us/services/virtual-machines/)
-
-[Virtual Machines - Learning Path](https://azure.microsoft.com/en-us/documentation/learning-paths/virtual-machines/)
+- [Azure Java Development Center] (http://azure.com/java)
+- [Azure Virtual Machines documentation](https://azure.microsoft.com/services/virtual-machines/)
+- [Learning Path for Virtual Machines](https://azure.microsoft.com/documentation/learning-paths/virtual-machines/)
 
 If you don't have a Microsoft Azure subscription you can get a FREE trial account [here](http://go.microsoft.com/fwlink/?LinkId=330212)
 
