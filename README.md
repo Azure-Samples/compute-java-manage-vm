@@ -1,5 +1,5 @@
 ---
-services: compute
+services: virtual-machines
 platforms: java
 author: selvasingh
 ---
