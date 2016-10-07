@@ -1,24 +1,25 @@
 ---
-services: compute
+services: Compute
 platforms: java
 author: selvasingh
 ---
 
-#Getting Started with Compute - Manage Virtual Machines - in Java #
+#Getting Started with Compute - Manage Virtual Machine - in Java #
 
-Compute Manage Virtual Machine Sample (for 1.0.0-beta2) - demonstrates how to perform common tasks using the Microsoft Azure Compute service.
 
-- Create a virtual machine
-- Start a virtual machine
-- Stop a virtual machine
-- Restart a virtual machine
-- Update a virtual machine
-	- Expand the OS drive
-	- Tag a virtual machine (there are many possible variations here)
-	- Attach data disks
-	- Detach data disks
-- List virtual machines
-- Delete a virtual machine.
+  Azure Compute sample for managing virtual machines -
+   - Create a virtual machine
+   - Start a virtual machine
+   - Stop a virtual machine
+   - Restart a virtual machine
+   - Update a virtual machine
+     - Expand the OS drive
+     - Tag a virtual machine (there are many possible variations here)
+     - Attach data disks
+     - Detach data disks
+   - List virtual machines
+   - Delete a virtual machine.
+ 
 
 ## Running this Sample ##
 
@@ -35,10 +36,6 @@ Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an aut
 ## More information ##
 
 [http://azure.com/java] (http://azure.com/java)
-
-[Virtual Machines](https://azure.microsoft.com/en-us/services/virtual-machines/)
-
-[Virtual Machines - Learning Path](https://azure.microsoft.com/en-us/documentation/learning-paths/virtual-machines/)
 
 If you don't have a Microsoft Azure subscription you can get a FREE trial account [here](http://go.microsoft.com/fwlink/?LinkId=330212)
 
