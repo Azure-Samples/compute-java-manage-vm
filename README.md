@@ -13,7 +13,6 @@ author: selvasingh
    - Stop a virtual machine
    - Restart a virtual machine
    - Update a virtual machine
-     - Expand the OS drive
      - Tag a virtual machine (there are many possible variations here)
      - Attach data disks
      - Detach data disks
