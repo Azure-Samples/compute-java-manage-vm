@@ -4,9 +4,8 @@ languages:
 - java
 products:
 - azure
-extensions:
-- services: Compute
-- platforms: java
+description: "Azure Compute sample for managing virtual machines"
+urlFragment: compute-java-manage-vm
 ---
 
 # Getting Started with Compute - Manage Virtual Machine - in Java #
