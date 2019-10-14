@@ -8,7 +8,7 @@ description: "Azure Compute sample for managing virtual machines"
 urlFragment: compute-java-manage-vm
 ---
 
-# Getting Started with Compute - Manage Virtual Machine - in Java #
+# Getting Started with Compute - Manage Virtual Machine (Java)
 
 
   Azure Compute sample for managing virtual machines -
@@ -24,19 +24,19 @@ urlFragment: compute-java-manage-vm
    - Delete a virtual machine.
  
 
-## Running this Sample ##
+## Running this Sample
 
 To run this sample:
 
 Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-libraries-for-java/blob/master/AUTH.md).
 
-    git clone https://github.com/Azure-Samples/compute-java-manage-vm.git
+```bash
+git clone https://github.com/Azure-Samples/compute-java-manage-vm.git
+cd compute-java-manage-vm
+mvn clean compile exec:java
+```
 
-    cd compute-java-manage-vm
-
-    mvn clean compile exec:java
-
-## More information ##
+## More information
 
 [http://azure.com/java](http://azure.com/java)
 
